@@ -1,0 +1,331 @@
+body {
+    padding: 0;
+    margin: 0 auto;
+}
+
+
+
+
+.header {
+    float: left;
+    width: 100%;
+	background-image: url('../images/about-hero.jpg');
+	background-size:116.5% 110%;
+	background-repeat: no-repeat;
+}
+.header_center {
+    float: none;
+    width: 100%;
+    margin: 0 auto;
+    max-width: 100%;
+}
+.header_top {
+    float: left;
+    width: 100%;
+}
+.header1 {
+    float: left;
+    width: 27%;
+   
+}
+.header1 h3 {
+    color: white;
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+    font-size: 30px;
+    font-weight: 400;
+	letter-spacing: 3px;
+}
+.header2 {
+    float: left;
+    width: 53%;
+	margin: 1.4em 0em;
+	
+	
+}
+.header2 li {
+    display: inline;
+    margin: 0em 1.4em;
+    text-transform: uppercase;
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+	
+}
+.header2 a {
+    text-decoration: none;
+    color: white;
+}
+.header2 span {
+    color: #EA6F83;
+}
+.header3 {
+    float: right;
+    width: 20%;
+	margin: 1.5em 0em;
+	
+}
+.header3 button {
+    padding: 1em 4em;
+    text-transform: uppercase;
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    border: none;
+	outline: none;
+    border: 1px solid #EA6F83;
+	color: white;
+    border-radius: 30px;
+    background: #EA6F83;
+    cursor: pointer;
+}
+.header3 button:hover{
+	background-color: white;
+	color: #EA6F83;
+	border: 1px solid #EA6F83;
+	
+}
+
+
+.header_bottom {
+    float: left;
+    width: 100%;
+    text-align: center;
+	margin: 3em 0em;
+}
+.header_bottom h1{
+	font-family: 'Playfair Display', serif;
+    font-size: 50px;
+    font-weight: 700;
+	margin: 0em 6.5em;
+	color:white;
+	letter-spacing: 0.8px;
+}
+.header_bottom p{
+	font-family: 'Lato', sans-serif;
+    font-size: 18px;
+    font-weight: 700; 
+	margin: 1em 18em;
+	color: white;
+	line-height: 1.7em;
+	word-spacing: 6px;
+	margin-bottom: 2.5em;
+}
+
+.para {
+    float: left;
+    width: 100%;
+    text-align: center;
+	margin: 7em 0em;
+}
+.para p {
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #5E5757;
+    margin: 0em 25em;
+    line-height: 26px;
+    word-spacing: 2px;
+    text-align: left;
+}
+.para img {
+    width: 54%;
+    margin: 3em 0em;
+}
+.para span {
+    color: black;
+}
+/** para section ends **/
+
+.img_section {
+    float: left;
+    width: 100%;
+    background-color:#F9F3F4;
+}
+.img_center {
+    float: none;
+    width: 100%;
+    margin: 0 auto;
+	max-width: 85%;
+}
+.img_section h3 {
+    font-family: 'Playfair Display', serif;
+    font-size: 36px;
+    font-weight: 700;
+    text-align: center;
+	margin-top: 2em;
+}
+.img_section p {
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+}
+.img_section_list {
+    float: left;
+    width: 100%;
+}
+.img_section_list1 {
+    float: left;
+    width: 33.3%;
+	
+	text-align: center;
+}
+.img_section_list1 img,.img_section_list2 img,.img_section_list3 img {
+    width: 95%;
+	height: 250px;
+}
+.img_section_list1 button, .img_section_list2 button, .img_section_list3 button {
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    padding: 1em 3em 5em 3em;
+    outline: none;
+    border: none;
+    position: relative;
+    top: -60px;
+    width: 210px;
+    background-color: #F9F3F4;
+}
+.img_section_list1 span,.img_section_list2 span,.img_section_list3 span {
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    color: #575757;
+}
+.img_section_list2 {
+    float: left;
+    width: 33.3%;
+	text-align: center;
+}
+
+.img_section_list2 img {
+    width: 95%;
+}
+.img_section_list3 {
+    float: right;
+    width: 33.3%;
+	text-align: center;
+}
+.img_section_list3 img {
+    width: 95%;
+}
+/** img section ends**/
+.like {
+    float: left;
+    width: 100%;
+    text-align: center;
+    background-image: url('../images/order-img.jpg');
+    background-size: 100% 140%;
+    background-repeat: no-repeat;
+}
+.like h3 {
+    font-family: 'Playfair Display', serif;
+    font-size: 50px;
+    font-weight: 700;
+    color: white;
+	padding-top: 4em;
+	margin-bottom: 0px;
+}
+.like p {
+    font-family: 'Lato', sans-serif;
+    font-size: 19px;
+    font-weight: 700;
+	color: white;
+	margin-top: 0px;
+}
+.like button {
+	 padding: 1em 4em;
+	text-transform: uppercase;
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    outline: none;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    background-color: #EA6F83;
+    color: white;
+    margin: 1em 0em 3em 0em;
+}
+.like button:hover {
+	background-color: white;
+	border:1px solid #EA6F83;
+	color: #EA6F83;
+}
+/** like section ends**/
+.last_section {
+    float: left;
+    width: 100%;
+    background-color: #F9F3F4;
+	padding: 2.5em 0em 5em 0em;
+}
+.last_center {
+    float: none;
+    width: 100%;
+    margin: 0 auto;
+    max-width: 82%;
+}
+.last_section1 {
+    float: left;
+    width: 27%;
+}
+.last_section2 {
+    float: left;
+    width: 25%
+}
+.last_section2 a {
+    text-decoration: none;
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #656565;
+    line-height: 25px;
+}
+.last_section3 {
+    float: left;
+    width: 27%;
+}
+.last_section4 {
+    float: right;
+    width: 21%;
+}
+.last_section4 i {
+    margin: 0em 1em 0em 0em;
+    color: #656565;
+    cursor: pointer;
+}
+.last_section4 i:hover {
+    color: black;
+}
+.last_section1 h4,.last_section2 h4,.last_section3 h4,.last_section4 h4 {
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    color: #1F1F1F;
+}
+.last_section1 p,.last_section3 p  {
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    margin: 1em 4em 0em 0em;
+    line-height: 25px;
+    color: #656565;
+	letter-spacing: 0.7px;
+}
+
+/**last section ends**/
+.footer {
+    float: left;
+    width: 100%;
+    text-align: center;
+    background-color: #EA6F83;
+    padding: 5px 0px 7px 0px;
+}
+.footer p {
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+	color: #1F1F1F;
+	letter-spacing: 0.7px;
+}

@@ -1,0 +1,323 @@
+body {
+    padding: 0;
+    margin: 0 auto;
+}
+
+
+
+
+.header {
+    float: left;
+    width: 100%;
+	background-image: url('../images/menu-hero.jpg');
+	background-size:100% 159%;
+	background-repeat: no-repeat;
+	padding-bottom: 4.2em;
+}
+.header_center {
+    float: none;
+    width: 100%;
+    margin: 0 auto;
+    max-width: 100%;
+}
+.header_top {
+    float: left;
+    width: 100%;
+}
+.header1 {
+    float: left;
+    width: 27%;
+   
+}
+.header1 h3 {
+    color: white;
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+    font-size: 30px;
+    font-weight: 400;
+	letter-spacing: 4px;
+}
+.header2 {
+    float: left;
+    width: 51%;
+	margin: 1.4em 0em;
+	
+	
+}
+.header2 li {
+    display: inline;
+    margin: 0em 1.4em;
+    text-transform: uppercase;
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+	letter-spacing: 0.5px;
+	
+}
+.header2 a {
+    text-decoration: none;
+    color: white;
+}
+.header2 span {
+    color: #EA6F83;
+}
+.header3 {
+    float: right;
+    width: 22%;
+	margin: 1.5em 0em;
+	
+}
+.header3 button {
+    padding: 1em 4em;
+    text-transform: uppercase;
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    border: none;
+	outline: none;
+    border: 1px solid #EA6F83;
+	color: white;
+    border-radius: 30px;
+    background: #EA6F83;
+    cursor: pointer;
+}
+.header3 button:hover{
+	background-color: white;
+	color: #EA6F83;
+	border: 1px solid #EA6F83;
+	
+}
+
+
+.header_bottom {
+    float: left;
+    width: 100%;
+    text-align: center;
+	margin: 3em 0em;
+}
+.header_bottom h1{
+	font-family: 'Playfair Display', serif;
+    font-size: 50px;
+    font-weight: 700;
+	margin: 0em 6.5em;
+	color:white;
+	letter-spacing: 0.8px;
+}
+.header_bottom p{
+	font-family: 'Lato', sans-serif;
+    font-size: 18px;
+    font-weight: 700; 
+	margin: 1em 18em;
+	color: white;
+	line-height: 1.7em;
+	word-spacing: 6px;
+}
+
+.menu {
+    float: left;
+    width: 100%;
+	margin: 5em 0em;
+	background-color: white;
+}
+.menu_center {
+    float: none;
+    width: 100%;
+    margin: 0 auto;
+    max-width: 85%;
+}
+
+.menu li {
+    display: inline;
+    margin: 0em 1.5em;
+    text-transform: uppercase;
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+	letter-spacing: 1px;
+}
+.menu ul {
+    text-align: center;
+}
+.menu a {
+    text-decoration: none;
+    color: black;
+}
+.menu a:hover {
+	color: #EA6F83;
+}
+.menu_left {
+    float: left;
+    width: 52%;
+	margin: 1.5em 0em;
+}
+.menu_right {
+    float: right;
+    width: 48%;
+	margin: 1.5em 0em;
+}
+.menu_left h4,.menu_right h4 {
+    text-transform: capitalize;
+    font-family: 'Playfair Display', serif;
+    font-size: 20px;
+    font-weight: 700;
+}
+.menu_left p,.menu_right p {
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #5E6365;
+}
+.menu_left span,.menu_right span {
+    color: black;
+}
+.menu_bottom {
+    float: left;
+    width: 100%;
+    text-align: center;
+	margin-top: 2em;
+}
+.menu_bottom span {
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #5E6365;
+	margin: 0em 1em;
+}
+.menu_bottom button {
+    padding: 1em 4em;
+	text-transform: uppercase;
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    outline: none;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    background-color: #EA6F83;
+    color: white;
+    margin: 3em 0em 3em 0em;
+}
+.menu_bottom button:hover {
+	background-color: white;
+	border:1px solid #EA6F83;
+	color: #EA6F83;
+}
+/** menu section ends **/
+.like {
+    float: left;
+    width: 100%;
+    text-align: center;
+    background-image: url('../images/order-img.jpg');
+    background-size: 100% 140%;
+    background-repeat: no-repeat;
+}
+.like h3 {
+    font-family: 'Playfair Display', serif;
+    font-size: 50px;
+    font-weight: 700;
+    color: white;
+	padding-top: 4em;
+	margin-bottom: 0px;
+}
+.like p {
+    font-family: 'Lato', sans-serif;
+    font-size: 19px;
+    font-weight: 700;
+	color: white;
+	margin-top: 0px;
+}
+.like button {
+	 padding: 1em 4em;
+	text-transform: uppercase;
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    outline: none;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    background-color: #EA6F83;
+    color: white;
+    margin: 1em 0em 3em 0em;
+}
+.like button:hover {
+	background-color: white;
+	border:1px solid #EA6F83;
+	color: #EA6F83;
+}
+/** like section ends**/
+.last_section {
+    float: left;
+    width: 100%;
+    background-color: #F9F3F4;
+	padding: 2.5em 0em 5em 0em;
+}
+.last_center {
+    float: none;
+    width: 100%;
+    margin: 0 auto;
+    max-width: 82%;
+}
+.last_section1 {
+    float: left;
+    width: 27%;
+}
+.last_section2 {
+    float: left;
+    width: 25%
+}
+.last_section2 a {
+    text-decoration: none;
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #656565;
+    line-height: 25px;
+}
+.last_section3 {
+    float: left;
+    width: 27%;
+}
+.last_section4 {
+    float: right;
+    width: 21%;
+}
+.last_section4 i {
+    margin: 0em 1em 0em 0em;
+    color: #656565;
+    cursor: pointer;
+}
+.last_section4 i:hover {
+    color: black;
+}
+.last_section1 h4,.last_section2 h4,.last_section3 h4,.last_section4 h4 {
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    color: #1F1F1F;
+}
+.last_section1 p,.last_section3 p  {
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    margin: 1em 4em 0em 0em;
+    line-height: 25px;
+    color: #656565;
+	letter-spacing: 0.7px;
+}
+
+/**last section ends**/
+.footer {
+    float: left;
+    width: 100%;
+    text-align: center;
+    background-color: #EA6F83;
+    padding: 5px 0px 7px 0px;
+}
+.footer p {
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+	color: #1F1F1F;
+	letter-spacing: 0.7px;
+}
